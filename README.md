@@ -6,9 +6,9 @@ This repository contains example Kubernetes YAML files, ArgoCD application manif
 
 ## Contents
 
-- [Kubernetes](./k8s/README.md): Example k8s YAML files.
-- [ArgoCD](./argocd/README.md): Example ArgoCD application manifests.
-- [Helm](./helm/README.md): Example Helm charts and values files.
+- [k8s](./k8s/README.md): Example k8s YAML files.
+- [ArgoCD](./ArgoCD/README.md): Example ArgoCD application manifests.
+- [Helm](./Helm/README.md): Example Helm charts and values files.
 
 ## Usage
 
