@@ -1,0 +1,10 @@
+replicaCount: 3
+
+image:
+  repository: nginx
+  tag: latest
+
+service:
+  port: 80
+  targetPort: 80
+  type: ClusterIP
