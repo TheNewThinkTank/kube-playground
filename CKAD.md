@@ -39,9 +39,11 @@
 
 <details>
   <summary>Services and Networking - 20%</summary>
+
     - Demonstrate basic understanding of NetworkPolicies
     - Provide and troubleshoot access to applications via services
     - Use Ingress rules to expose applications
+
 </details>
 
 The CKAD Certification focuses on the skills required to be a successful Kubernetes Application Developer in industry today. The exam assumes working knowledge of container runtimes and microservice architecture.
