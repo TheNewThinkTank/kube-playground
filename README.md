@@ -21,3 +21,7 @@ The Helm chart provides a simple example for deploying an NGINX application with
 alias k=kubectl
 alias kdy="kubectl --dry-run=client -o yaml"
 ```
+
+## Upcoming
+
+- Observability examples
