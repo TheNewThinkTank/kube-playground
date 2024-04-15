@@ -2,6 +2,7 @@
 
 <details>
   <summary>Application Design and Build - 20%</summary>
+
     - Define, build and modify container images
     - Choose and use the right workload resource (Deployment, DaemonSet, CronJob, etc.)
     - Understand multi-container Pod design patterns (e.g. sidecar, init and others)
@@ -10,6 +11,7 @@
 
 <details>
   <summary>Application Deployment - 20%</summary>
+
     - Use Kubernetes primitives to implement common deployment strategies (e.g. blue/green or canary)
     - Understand Deployments and how to perform rolling updates
     - Use the Helm package manager to deploy existing packages
@@ -18,6 +20,7 @@
 
 <details>
   <summary>Application Observability and Maintenance - 15%</summary>
+
     - Understand API deprecations
     - Implement probes and health checks
     - Use built-in CLI tools to monitor Kubernetes applications
@@ -27,6 +30,7 @@
 
 <details>
   <summary>Application Environment, Configuration and Security - 25%</summary>
+
     - Discover and use resources that extend Kubernetes (CRD, Operators)
     - Understand authentication, authorization and admission control
     - Understand requests, limits, quotas
@@ -39,6 +43,7 @@
 
 <details>
   <summary>Services and Networking - 20%</summary>
+
     - Demonstrate basic understanding of NetworkPolicies
     - Provide and troubleshoot access to applications via services
     - Use Ingress rules to expose applications
