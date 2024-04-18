@@ -19,3 +19,11 @@ spec:
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           ports:
             - containerPort: {{ .Values.service.port }}
+
+{{- /* example comment with trim markers
+{{if pipeline}} T1 {{else if pipeline}} T0 {{end}}
+
+{{ if eq $B 1 }}B is 1{{ else }}B is not 1{{ end }}
+
+{{range pipeline}} T1 {{end}}
+ /* -}}
