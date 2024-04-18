@@ -1,6 +1,6 @@
 # Kube Playground
 
-## Useful Docs
+## Useful links
 
 - [k8s](https://kubernetes.io/docs/home/)
 - [Helm](https://helm.sh/docs/intro/using_helm/)
