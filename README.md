@@ -1,5 +1,11 @@
 # Kube Playground
 
+## Useful Docs
+
+- [k8s](https://kubernetes.io/docs/home/)
+- [Helm](https://helm.sh/docs/intro/using_helm/)
+- [go-template](https://developer.hashicorp.com/nomad/tutorials/templates/go-template-syntax)
+- [killercoda](https://killercoda.com/login)
 ## Kubernetes, ArgoCD, and Helm Example Repository
 
 This repository contains example Kubernetes YAML files, ArgoCD application manifests, and Helm charts for beginners.
