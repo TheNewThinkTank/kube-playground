@@ -21,6 +21,14 @@ This repository contains example Kubernetes YAML files, ArgoCD application manif
 Clone this repository and explore the directories for examples.
 The Helm chart provides a simple example for deploying an NGINX application with configurable replica count, image, and service settings. You can customize it further to fit your specific application requirements.
 
+## ~/.vimrc
+
+```BASH
+set expandtab
+set tabstop=2
+set shiftwidth=2
+```
+
 ## Upcoming
 
 - Observability examples
