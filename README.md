@@ -23,10 +23,20 @@ The Helm chart provides a simple example for deploying an NGINX application with
 
 ## ~/.vimrc
 
+essential:
 ```BASH
 set expandtab
 set tabstop=2
 set shiftwidth=2
+```
+
+optional:
+```BASH
+set autoindent
+set smartindent
+set bg=dark
+set nowrap
+set paste
 ```
 
 ## Upcoming
