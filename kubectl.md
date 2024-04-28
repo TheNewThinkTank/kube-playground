@@ -25,6 +25,10 @@ sudo vim /etc/hosts
 rollback:
 `k rollout undo deployment/<deployment-name>`
 
+
+TODO: logs command
+
+
 Abbreviations:
 
 | Abbreviation | full name       |
