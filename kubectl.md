@@ -16,6 +16,9 @@ k apply -f somefile.yaml
 sudo vim /etc/hosts
 ```
 
+rollback:
+`k rollout undo deployment/<deployment-name>`
+
 Abbreviations:
 
 | Abbreviation | full name       |
