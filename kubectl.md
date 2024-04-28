@@ -6,6 +6,12 @@ alias k=kubectl
 alias kdy="kubectl --dry-run=client -o yaml"
 ```
 
+context
+```BASH
+k config get-contexts
+k config use-context <context-name>
+```
+
 Get pods from all namespaces:
 `k get po -A`
 
