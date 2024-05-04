@@ -25,9 +25,11 @@ sudo vim /etc/hosts
 rollback:
 `k rollout undo deployment/<deployment-name>`
 
+cpu usage (pods):<br>
+`k top po`
 
-TODO: logs command
-
+TODO: logs command<br>
+`k logs <podname>`
 
 Abbreviations:
 
@@ -39,3 +41,4 @@ Abbreviations:
 | po           | pod             |
 | cm           | config-map      |
 | ns           | namespace       |
+| cj           | cronjob         |
