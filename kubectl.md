@@ -16,7 +16,7 @@ Get pods from all namespaces:
 `k get po -A`
 
 ```BASH
-kdy run po pod-name --image=some-image > somefile.yaml
+kdy run pod-name --image=some-image > somefile.yaml
 k apply -f somefile.yaml
 
 sudo vim /etc/hosts
@@ -28,8 +28,11 @@ rollback:
 cpu usage (pods):<br>
 `k top po`
 
-TODO: logs command<br>
+logs:<br>
 `k logs <podname>`
+
+events:<br>
+`k get events -n <namespace> -o wide`
 
 Abbreviations:
 
