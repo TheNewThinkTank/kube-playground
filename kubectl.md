@@ -37,6 +37,15 @@ events:<br>
 check service:<br>
 `curl <worker-node>:<IP>`
 
+show pod labels:<br>
+`k -n <namespace> get po --show-labels`
+
+networkpolicy:<br>
+```BASH
+k -n <namespace> get networkpolicy
+k -n <namespace> describe networkpolicy <networkpolicy-name>
+```
+
 Abbreviations:
 
 | Abbreviation | full name       |
