@@ -34,6 +34,9 @@ logs:<br>
 events:<br>
 `k get events -n <namespace> -o wide`
 
+check service:<br>
+`curl <worker-node>:<IP>`
+
 Abbreviations:
 
 | Abbreviation | full name       |
