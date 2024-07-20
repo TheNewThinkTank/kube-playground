@@ -24,4 +24,14 @@ helm list
 helm uninstall [release-name]
 helm pull --untar [chart-name]
 ls [chart-name]
+
+# Examples
+helm search repo bitnami --output json | jq '.[] | select(.name | contains("joomla"))'
+helm repo list
+helm install bravo bitnami/drupal
+helm uninstall bravo
+helm pull --untar  bitnami/apache
+vim apache/values.yaml 
+helm install mywebapp ./apache
+helm list
 ```
