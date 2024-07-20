@@ -23,6 +23,7 @@ The Helm chart provides a simple example for deploying an NGINX application with
 
 - [custom controller boilerplate](https://github.com/kubernetes/sample-controller)
 - [Operators](https://operatorhub.io/)
+- Community-driven Helm Charts repository: [Artifact HUB](https://artifacthub.io/)
 
 ## ~/.vimrc
 
